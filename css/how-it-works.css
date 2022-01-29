@@ -392,7 +392,7 @@ select {
 /********** Footer********** */
 /* ****************************** */
 .footer {
-  padding: 6rem 0;
+  padding: 6rem 1rem;
   border-top: 1px solid #eee;
 }
 
@@ -401,6 +401,10 @@ select {
 }
 
 .logo-col {
+  display: flex;
+  flex-direction: column;
+}
+.address-col {
   display: flex;
   flex-direction: column;
 }

@@ -238,6 +238,9 @@
   .main-nav-last {
     font-size: 3rem;
   }
+  .featured-items {
+    gap: 1rem;
+  }
 }
 
 /* ****************************** */
@@ -258,7 +261,7 @@
   .hero-buttons {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
     justify-items: center;
     align-items: center;
   }
@@ -316,12 +319,49 @@
   }
   .btn {
     font-size: 1.5rem;
-    padding: 1rem 2rem;
   }
   .plan-desc {
     font-size: 1.5rem;
   }
   .pricing-price {
     font-size: 5rem;
+  }
+  .grid--footer {
+    gap: 2rem;
+  }
+  .footer-logo img {
+    width: 50%;
+  }
+  .footer-heading {
+    margin-bottom: 2rem;
+  }
+  .grid--footer {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+  }
+  .grid--footer div:nth-child(1) {
+    grid-column: 1;
+  }
+  .unvis {
+    display: none;
+  }
+  .address,
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 1.2rem;
+  }
+  .grid--footer {
+    padding: 1rem;
+  }
+  .featured-items img {
+    height: 1rem;
+  }
+}
+@media (max-width: 25em) {
+  .grid--footer {
+    padding: 0;
+  }
+  .featured-items img {
+    height: 0.95rem;
   }
 }
