@@ -1,0 +1,471 @@
+.hiw-content-num {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+.hiw-content-img {
+  max-width: 35%;
+}
+.hiw-content-heading {
+  margin-bottom: 3.2rem;
+}
+.hiw-content-para {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.hiw-content-img-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.hiw-content-img-container::after {
+  position: absolute;
+  content: "";
+  width: 60%;
+  background-color: #fdf2e9;
+  padding-bottom: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: -2;
+}
+.hiw-content-img-container::before {
+  position: absolute;
+  content: "";
+  width: 45%;
+  background-color: #fae5d3;
+  padding-bottom: 45%;
+  border-radius: 50%;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.featured-items {
+  display: flex;
+  gap: 9.6rem;
+  justify-content: space-between;
+}
+.featured-items img {
+  height: 3rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+.fn-section-titile {
+  text-align: center;
+  color: #aaa;
+}
+
+/* Meal-Card Section */
+
+.card {
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.5s;
+  box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 8%);
+}
+.card-items {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+.card-label {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.label-vegetarian {
+  background-color: #40c057;
+}
+.label-Paleo {
+  background-color: #ffe066;
+}
+.card img {
+  width: 100%;
+}
+.card-item-name {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+.card-icons {
+  color: #e67e22;
+  margin: 0 1rem;
+}
+.card-items-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  font-size: 2rem;
+}
+.card:hover {
+  transform: translate(0, -1rem);
+}
+.diet-plan-name {
+  margin-bottom: 3rem;
+}
+.diet-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  justify-content: stretch;
+  font-size: 2rem;
+}
+.diet-list-icons {
+  color: #e67e22;
+  margin: 0 1rem;
+}
+.meal-all-meals {
+  text-align: center;
+  margin: 4.6rem 0;
+}
+.meal-all-meals a {
+  text-decoration: none;
+  color: #e67e22;
+  font-size: 2rem;
+  letter-spacing: -0.5px;
+  padding: 2px;
+  border-bottom: 1px solid currentColor;
+}
+
+/* ****************************** */
+/********** testimonial********** */
+/* ****************************** */
+
+.testimonials {
+  background-color: #fdf2e9;
+}
+.testimonial-description {
+  padding: 9.6rem;
+}
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+}
+.testimonial img {
+  max-width: 25%;
+  border-radius: 50%;
+  margin-bottom: 1.6rem;
+}
+.block-quote {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+.block-quote-author {
+  margin-top: 1rem;
+  display: block;
+  color: #666;
+  font-size: 1.5rem;
+}
+.testimonial-gallery img {
+  max-width: 100%;
+
+  transition: all 0.4s;
+}
+.testimonial-gallery img:hover {
+  transform: scale(110%);
+}
+.testimonial-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
+  gap: 1rem;
+  padding-right: 2rem;
+}
+.testimonial-img {
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+/* ****************************** */
+/********** pricing********** */
+/* ****************************** */
+
+.pricing-container {
+  display: grid;
+  grid-template-columns: 30fr 30fr;
+  justify-content: center;
+  gap: 10rem;
+}
+.pricing-heading {
+  display: block;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+  text-align: center;
+}
+.pricing-price {
+  display: inline-block;
+  font-size: 7rem;
+  font-weight: 700;
+}
+.pricing-doller {
+  display: inline-block;
+  font-size: 3rem;
+}
+.pricing-flex {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+
+  padding: 5rem;
+}
+.plan-desc {
+  font-size: 2rem;
+}
+.plan-list {
+  margin-top: 2rem;
+  gap: 4rem;
+  font-size: 2.5rem;
+}
+.plan-list li {
+  display: flex;
+  align-items: center;
+}
+.plan-list li:last-child {
+  padding-bottom: 2rem;
+}
+.pricing .diet-list-icons {
+  font-size: 4rem;
+  color: #40c057;
+}
+.lastchild {
+  color: red !important;
+}
+.complete {
+  background-color: #fdf2e9;
+  max-width: 90%;
+  justify-self: end;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 8%);
+}
+.starter {
+  max-width: 90%;
+}
+.complete::before {
+  font-size: 2.2rem;
+  font-weight: 600;
+  position: absolute;
+  top: 41px;
+  right: -91px;
+  content: "Best Value";
+  background-color: #ffe066;
+  padding: 1rem 10rem;
+  transform: rotate(45deg);
+}
+.pricing-tax-desc {
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+/* ****************************** */
+/********** Feature********** */
+/* ****************************** */
+
+.feature-icon {
+  color: #e67e22;
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: #fdf2e9;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+/* ****************************** */
+/********** Email subscription********** */
+/* ****************************** */
+.email-grid {
+  overflow: hidden;
+  box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 15%);
+  border-radius: 11px;
+  display: grid;
+  grid-template-columns: 65fr 35fr;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+}
+.email-sub-img {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url(../img/eating.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.subscription {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #45260a;
+  padding: 4.5rem;
+  margin-bottom: 4rem;
+}
+.sub-heading {
+  color: inherit;
+  font-size: 4.4rem;
+  color: #45260a;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1.5;
+}
+.sub-desc {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: inherit;
+}
+.email-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+.form-elem {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.form-elem label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.form-elem input,
+select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.form-elem input::placeholder {
+  color: #aaa;
+}
+
+.form-elem *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+.signup-btn {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+/* ****************************** */
+/********** Footer********** */
+/* ****************************** */
+.footer {
+  padding: 6rem 0;
+  border-top: 1px solid #eee;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+.footer-logo img {
+  width: 100%;
+}
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #767676;
+  margin-top: auto;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+.nav-col {
+  display: flex;
+  flex-direction: column;
+}
