@@ -190,6 +190,9 @@
   .copyright {
     font-size: 1rem;
   }
+  .testimonial-description {
+    padding: 6rem;
+  }
 }
 /* ****************************** */
 /* ****#  Tab-- 700px */
@@ -355,6 +358,9 @@
   }
   .featured-items img {
     height: 1rem;
+  }
+  .testimonial-description {
+    padding: 3rem;
   }
 }
 @media (max-width: 25em) {
