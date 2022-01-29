@@ -157,7 +157,7 @@ h3 {
 }
 .hero-section {
   background-color: #fdf2e9;
-  padding-left: 3rem;
+  padding: 0 3rem;
 }
 .hero {
   display: grid;
@@ -261,7 +261,7 @@ h3 {
 .container {
   max-width: 120rem;
   margin: 9.6rem auto;
-  padding-left: 3rem;
+  padding: 0 3rem;
 }
 .grid {
   display: grid;
